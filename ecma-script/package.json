@@ -1,0 +1,25 @@
+{
+  "name": "@degenerate-developers/integer",
+  "version": "0.0.41968",
+  "description": "The smallest and fastest ECMA library for checking if an integer is even",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/degenerate-developers/integer.git"
+  },
+  "keywords": [
+    "ecma-script",
+    "javascript",
+    "number",
+    "even"
+  ],
+  "author": "S0AndS0",
+  "license": "SEE LICENSE IN REPOSITORY",
+  "bugs": {
+    "url": "https://github.com/degenerate-developers/integer/issues"
+  },
+  "homepage": "https://github.com/degenerate-developers/integer#readme"
+}

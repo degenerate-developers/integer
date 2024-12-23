@@ -11,6 +11,7 @@
  * @returns {boolean}
  *
  * @author https://mastodon.social/@S0AndS0
+ * @author https://bsky.app/profile/basilevs83.bsky.social
  *
  * @example Import within JavaScript or TypeScript module
  *

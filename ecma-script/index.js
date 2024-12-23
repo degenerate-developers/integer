@@ -74,8 +74,69 @@ function isEven(input) {
 	return false;
 }
 
+/**
+ * Return `false` if not an integer or non-odd integer, and `true` otherwise
+ *
+ * @param {number|any} input
+ *
+ * @returns {boolean}
+ *
+ * @author https://wandering.shop/@zedlopez
+ *
+ * @example Import within JavaScript or TypeScript module
+ *
+ * ```javascript
+ * import { isOdd } from 'degenerate-developers/integer/';
+ * ```
+ *
+ * @example Require within _classy_ JavaScript or TypeScript code
+ *
+ * ```javascript
+ * const { isOdd } require 'degenerate-developers/integer/';
+ * ```
+ *
+ * @example Usage of `isOdd` function
+ *
+ * ```javascript
+ * console.log(isOdd(419.68));
+ * //> false
+ *
+ * console.log(isOdd('wAt'));
+ * //> false
+ *
+ * console.log(isOdd(420));
+ * //> false
+ *
+ * console.log(isOdd(-119));
+ * //> true
+ * ```
+ *
+ * @description
+ *
+ * This JavaScript function takes one argument as input and returns true if it is an
+ * odd number and false otherwise. Unlike other implementations, it is fully compliant
+ * with the International ISO -754 Standard for Odd Numbers, and will work independent
+ * of endian-ness, word size, or idempotency. The algorithm exceeds 77 whetstones on
+ * the standard oddities per clock cycle benchmark.
+ */
+
+function isOdd(input) {
+    if (Number.isInteger(input)) {
+	if (input - (2 * Math.floor(input / 2))) {
+	    return true
+	}
+	else {
+	    return false
+	}
+    }
+    else {
+	return false
+    }
+}
+
 if (module.exports) {
 	module.exports = {
 		isEven: isEven,
+		isOdd: isOdd,
 	};
 }

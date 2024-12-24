@@ -16,13 +16,13 @@
  * @example Import within JavaScript or TypeScript module
  *
  * ```javascript
- * import { isEven } from 'degenerate-developers/integer/';
+ * import { isEven } from 'degenerate-developers/integer';
  * ```
  *
  * @example Require within _classy_ JavaScript or TypeScript code
  *
  * ```javascript
- * const { isEven } require 'degenerate-developers/integer/';
+ * const { isEven } require 'degenerate-developers/integer';
  * ```
  *
  * @example Usage of `isEven` function
@@ -86,13 +86,13 @@ function isEven(input) {
  * @example Import within JavaScript or TypeScript module
  *
  * ```javascript
- * import { isOdd } from 'degenerate-developers/integer/';
+ * import { isOdd } from 'degenerate-developers/integer';
  * ```
  *
  * @example Require within _classy_ JavaScript or TypeScript code
  *
  * ```javascript
- * const { isOdd } require 'degenerate-developers/integer/';
+ * const { isOdd } require 'degenerate-developers/integer';
  * ```
  *
  * @example Usage of `isOdd` function

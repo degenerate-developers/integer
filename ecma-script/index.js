@@ -140,3 +140,4 @@ if (module.exports) {
 		isOdd: isOdd,
 	};
 }
+// vim: tabstop=8
